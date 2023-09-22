@@ -35,9 +35,6 @@ nav ul a{
     width: 50%;
     margin-left: 100px;
     margin-top: 120px
-    
-
-
 }
 .me h2 {
     font-size: 35px;
@@ -54,4 +51,161 @@ nav ul a{
     height: auto;
     margin-left: 100px;
     border-radius: 250px 20px 250px 20px;
+}
+/* //////about///// */
+.contianer3{
+    /* margin: 25px;
+    padding: 20px; */
+    margin-top: 40px;
+}
+.move1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 35px;
+    border-bottom: 2px solid gray;
+    width: fit-content;
+    margin-left: 40%;
+}
+
+.move1{
+    background-image: linear-gradient(#1095C1,#1095C1) !important;
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: .7s;
+}
+.move1:hover{
+    background-size: 100% 100% !important;
+    color: #fff;
+}
+details > summary{
+    list-style: none;
+    padding: 10px 0 10px 20px;
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+details > p{
+    list-style: none;
+    padding: 0px 10px;
+    font-size: 1.3rem;
+}
+details summary:hover{
+    color: rgb(158, 153, 153);
+}
+
+.contant{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    padding: 0 0 0 5px;
+    font-size: 1.2rem;
+    color: rgb(228,21,228);
+}
+input,textarea{
+    width: 100%;
+    height: 20px;
+    border: none;
+    border-bottom: 2px solid rgb(142, 137, 137);
+    padding: 0 0 0 10px;
+    font-size: 1.2rem;
+    background: transparent;
+}
+input:focus,textarea:focus{
+    border-bottom: 2px solid red;
+    outline: none;
+    color: rgb(24,211,24);
+}
+.contant{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    margin-top: 20px;
+    box-shadow: 0 10px  30px  rgba(128, 128, 128, 0.359);
+    padding: 50px 50px 50px 20px;
+    width: 50vw;
+}
+label{
+    font-size: 28px;
+    padding: 20px;
+
+}
+input{
+    font-size: 25px;
+    padding: 15px;
+    margin-right: 5px;
+}
+form .submit{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    margin: 10px 0 0 0;
+    background: rgb(65, 199, 65);
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+textarea{
+    height: 60px;
+    width: 100%;
+}
+.four{
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+}
+.card{
+    width: 25%;
+    border-radius: 8px;
+    margin: 10px;
+    background: transparent;
+    transform: scale(1);
+    transition: .5s;
+    box-shadow: 0 20px 30px rgba(128, 128, 128, 0.359);
+}
+.card:hover{
+    transform: scale(1.1);
+    margin: 10px;
+    transition: .5s;
+
+}
+.card img{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+    aspect-ratio: 3/2;
+}
+.card span{
+    text-align: center;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    width: 81%;
+    padding: 20px;
+    font-size: 1.3rem;
+    font-weight: 400; 
+}
+
+footer{
+    width: 100%;
+    height: 20vh;
+    box-shadow: 0 20px 30px rgba(128, 128, 128, 0.359);
+    margin-top: 40px;
+    /* border: 1px solid rgba(128, 128, 128, 0.359); */
+}
+h3{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+a img{
+    margin-left: 20px;
 }
